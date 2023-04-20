@@ -29,7 +29,7 @@ body{
     padding: 25px;
 }
 
-.numberInput{
+#numberInput{
     width: 100%;
     padding: 50px 0;
     background-color: rgba(245, 245, 245, 0.692);
@@ -89,11 +89,11 @@ body{
     height: 3vh;
     width: 100%;
     font-size: 20px;
-    color: violet
+    color: purple
   }
   
   .fa-github {
-    color: violet;
+    color: purple;
     font-size: 20px;
     transition: transform 0.3s ease-in-out;
   }
