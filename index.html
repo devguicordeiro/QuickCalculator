@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quick Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <script defer src="script.js"></script>
+    </head>
+<body>
+    <div class="main-container">
+        <div class="calculator">
+            <input type="text" class="numberInput" placeholder="0" >
+            <br/>
+            <button class="key seven" onclick="press(7)">7</button>
+            <button class="key eight" onclick="press(8)">8</button>
+            <button class="key nine" onclick="press(9)">9</button>
+            <button class="key clear" onclick="clear()">C</button>
+            <br/>
+            <button class="key four" onclick="press(4)">4</button>
+            <button class="key five" onclick="press(5)">5</button>
+            <button class="key six" onclick="press(6)">6</button>
+            <button class="key division" onclick="press('/')">/</button>
+            <br/>
+            <button class="key one" onclick="press(1)">1</button>
+            <button class="key two" onclick="press(2)">2</button>
+            <button class="key three" onclick="press(3)">3</button>
+            <button class="key times" onclick="press('*')">*</button>
+            <br/>
+            <button class="key dot" onclick="press('.')">.</button>
+            <button class="key zero" onclick="press(0)">0</button>
+            <button class="key minus" onclick="press('-')">-</button>
+            <button class="key plus" onclick="press('+')">+</button>
+            <br/>
+            <button class="key equals" onclick="equals()">=</button>
+        </div>
+    </div>
+    <footer class="devguicordeirofooter">
+        <p>
+          Created by: devguicordeiro - 
+          <script>document.write(new Date().getFullYear())</script>
+        </p>
+        <a href="https://github.com/devguicordeiro" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+    </footer>
+</body>
+</html>
