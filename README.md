@@ -1,4 +1,4 @@
-# Quick-Calculator
+# QuickCalculator
 
 this project actually is not done yet.</br>
 it is functional but it has few functions</br>
